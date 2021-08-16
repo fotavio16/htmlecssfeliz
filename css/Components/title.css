@@ -1,0 +1,28 @@
+h1 {    
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-size: 40px;
+    color: var(--color-base-1);
+    text-shadow: 4px 4px 0 black;    
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-size: 30px;    
+    color: white;
+    text-shadow: 4px 4px 0 black;
+}
+
+.box {
+    display: inline-block;
+    text-align: center;  
+    /* justify-content: space-between;   */
+    /* height: 184px; */
+    /* width: 717px; */
+    padding: 42px 44px;    
+    background-color: var(--color-black-2);
+    box-shadow: 10px 10px 0 black;
+}
+
+.box h1 {
+    margin-bottom: 28px;
+}

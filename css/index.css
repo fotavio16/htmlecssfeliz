@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap');
 
 :root {
   --color-base-1: #0460D9;
@@ -6,6 +6,7 @@
   --color-base-3: #D9AC25;
   --color-base-4: #010440;
   --color-base-5: #027373;
+  --color-black-2: #3A4042;
 }
 
 header {
@@ -23,38 +24,3 @@ nav {
     text-align: right;
 }
 
-a {
-    display: inline-flex;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    font-family: "Fira Code", Arial, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-}
-
-a:before {
-    content: "";
-    background-color: var(--color-base-2);
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-#button {
-    display: inline-block;
-    background-color: var(--color-base-2);
-    /* height: 60px; */
-    /* line-height: 60px; */
-    padding: 18px 20px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    box-shadow: 5px 5px 0 black;
-    margin-right: 0px;
-}
-
-#button:hover {
-    background-color: var(--color-base-3);
-    color: var(--color-base-4);
-}

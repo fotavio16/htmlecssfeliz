@@ -1,0 +1,9 @@
+.banner {
+    height: 800px;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+.banner .box {
+    margin-bottom: 40px;
+}
