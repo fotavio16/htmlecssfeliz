@@ -1,11 +1,11 @@
-h1 {    
+.title {    
     font-family: 'Press Start 2P', cursive, sans-serif;
     font-size: 40px;
     color: var(--color-base-1);
     text-shadow: 4px 4px 0 black;    
 }
 
-h2 {
+.subtitle {
     font-family: 'Press Start 2P', cursive, sans-serif;
     font-size: 30px;    
     color: white;
@@ -23,6 +23,12 @@ h2 {
     box-shadow: 10px 10px 0 black;
 }
 
-.box h1 {
+.box .title {
     margin-bottom: 28px;
+}
+
+.title,-second {
+    text-align: center;
+    color: white;
+    text-shadow: none;
 }
